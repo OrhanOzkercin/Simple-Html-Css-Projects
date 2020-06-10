@@ -8,7 +8,7 @@ Main goal is:
 - Practicing variables with Css
 - Practicing CSS Flexbox
 
-![Exchange Rate](https://mdokqg.dm.files.1drv.com/y4mB7hyaZ7wOvc_DteRHpNXE1WLGLrt5ZUBExRRB-UvH1mJr-nQzOEFXFG4-45XTzwkpYhtFIpjQsEPYalzIfr_vo5KExOL_hnLPkUtriw1f0JYT_EmlpBRJSd9-uBm6yCkkotwoFMqWEJvzLd0FMusY7H_Oxl2fEn0Hj_h5YsreiLI1hX4hd6a2sUUlal2WCJeWlWnmdPbjaARoueSrUSaKg/edgeLedger.gif?psid=1)
+![Exchange Rate](https://ltobqg.dm.files.1drv.com/y4mt6JPYI3s4F84e0ekDBA3jpbyzrnJNv14Q0WKbbebN50R47qaopjU-BnW1Xbxol1ey46L63JjWq1tBAW3PWFNXWzf_mOpwHqwj2OHhfQOJkLYBwVGl2wGTST1V3-YC9z2MEZCtUjbalkTPZdyCC7ezsPX_XlZmDErlmAGVN2TZciRCLWYmWOmU2hKc6JsSf2iheGkw0kKtSfpfrtfduwtcw/edge.gif?psid=1)
 
 ## 02 - News Web
 
@@ -28,7 +28,7 @@ This is not useful way to do hamburger menu but still I wanted to try it. For me
 
 Main goal is:
 
-    - Make checkbox to hambuger menu
+- Make checkbox to hambuger menu
 
 ![Exchange Rate](https://ltocqg.dm.files.1drv.com/y4mNcsgYJX8LGv-szqVRTs3ab_qkf3kr6fg7mPz8sUlQsWm4jCWwfhMO-lwbQJ6o8GJnGWs2vcZ3SSqKJu4S6r5thd5lyH8L8QIG8F91lePYFcRLF8O3DnIKH8-qMNOP_fn81URiGHm31cOsAEpfIqSBpfOeKGqjwMkIhX4flu1K5zZ346wTIK6vBr9elX_-4Sbh9VNa5anQCeQ1tvuyO69vA/hamburger.gif?download&psid=1)
 
@@ -36,6 +36,9 @@ Main goal is:
 
 In this project I use little bit of vanilla Js to add couple of events. It's really easy to make menu slider with just css. I made this just a tiny animation. It's a smooth display to use.
 
-Main goal is: - Make slider with Css - Practice some basic Css
+Main goal is:
+
+- Make slider with Css 
+- Practice some basic Css
 
 ![Exchange Rate](https://mdrqqq.dm.files.1drv.com/y4m1mYAir1GYw7gsuWmqcp8JYJREHFUcFeR_S5q9TNAPXEVn5odUwNH7cOQzdKWFvB6VK4cyQexMEvxclbK4o-gZx4irfA-dGCHVZnbkzbxAlzoYfILAMDUsUiiE628ulZI_XlVszK9f1jkHZfRbJ3v9aiP6nnScLAVQbdgZ3_FrqOcELgTBUUgJsUCMK9vMsfIFCD4RX-M9FdFxYj8LYAPRw/landing.gif)
