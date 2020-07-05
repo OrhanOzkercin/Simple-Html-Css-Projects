@@ -1,41 +1,11 @@
-## 01 - EdgeLedger web page
+##  EdgeLedger web page
 
-I focused full of CSS with this project. This is nice project who wants to dive into Css Flexbox and basics HTML elements. Only thing I used for styling is basic css. Also I used css variables and utilities to use some classes later on somewhere else
+This is a single page web site. Only used vanilla Css. Css-Flexbox is the main focus of this project.
 
-Main goal is:
+##  News web site
 
-- Creating reusable classes.
-- Practicing variables with Css
-- Practicing CSS Flexbox
+This is a multipage web site. Only used vanilla Css. Css-Grid is the main focus of this project
 
-![Exchange Rate](https://ltobqg.dm.files.1drv.com/y4mt6JPYI3s4F84e0ekDBA3jpbyzrnJNv14Q0WKbbebN50R47qaopjU-BnW1Xbxol1ey46L63JjWq1tBAW3PWFNXWzf_mOpwHqwj2OHhfQOJkLYBwVGl2wGTST1V3-YC9z2MEZCtUjbalkTPZdyCC7ezsPX_XlZmDErlmAGVN2TZciRCLWYmWOmU2hKc6JsSf2iheGkw0kKtSfpfrtfduwtcw/edge.gif?psid=1)
+## Simple Hamburger Menu
 
-## 02 - News Web
-
-In this project I fully focused CSS Grip. I created template full of grids. It's great to understand this approach of CSS. It's a quite smoth project for this goal. Also I practice reusable classes in this project too, such as `.btn .primary`.If you want to learn and practice those things, you are welcome to took this example and move forward.
-
-Main goal is:
-
-- Creating reusable classes.
-- Practicing variables with Css
-- Practicing CSS Grid
-
-![Exchange Rate](https://mdojqg.dm.files.1drv.com/y4m0tzB8OH-f32Qv8s2uFsBYq93GY5JyGkfE952Tm-1Oh95muW_l4tr-x3C0dYHSg02o8bXcV4hEs8FN37XUbyaioVgeMwI0QI3Y1rrlyGHEXSOz0XBbFmzjjIK6qmwvsn5ABsOJ9XRFx-4OkTtWCYf6D6zRutfv_u9liuzGcasHjMWu6N7Xe48gAXGa2sOCPYhdION6DPhuXBjTDSdp3DHeg/newsGrid.gif?download&psid=1)
-
-## 03 - Hamburger Menu Without Javascript
-
-This is not useful way to do hamburger menu but still I wanted to try it. For me it was experimental.
-
-Main goal is:
-
-    - Make checkbox to hambuger menu
-
-![Exchange Rate](https://ltocqg.dm.files.1drv.com/y4mNcsgYJX8LGv-szqVRTs3ab_qkf3kr6fg7mPz8sUlQsWm4jCWwfhMO-lwbQJ6o8GJnGWs2vcZ3SSqKJu4S6r5thd5lyH8L8QIG8F91lePYFcRLF8O3DnIKH8-qMNOP_fn81URiGHm31cOsAEpfIqSBpfOeKGqjwMkIhX4flu1K5zZ346wTIK6vBr9elX_-4Sbh9VNa5anQCeQ1tvuyO69vA/hamburger.gif?download&psid=1)
-
-## 04 - Menu Slider
-
-In this project I use little bit of vanilla Js to add couple of events. It's really easy to make menu slider with just css. I made this just a tiny animation. It's a smooth display to use.
-
-Main goal is: - Make slider with Css - Practice some basic Css
-
-![Exchange Rate](https://mdrqqq.dm.files.1drv.com/y4m1mYAir1GYw7gsuWmqcp8JYJREHFUcFeR_S5q9TNAPXEVn5odUwNH7cOQzdKWFvB6VK4cyQexMEvxclbK4o-gZx4irfA-dGCHVZnbkzbxAlzoYfILAMDUsUiiE628ulZI_XlVszK9f1jkHZfRbJ3v9aiP6nnScLAVQbdgZ3_FrqOcELgTBUUgJsUCMK9vMsfIFCD4RX-M9FdFxYj8LYAPRw/landing.gif)
+This is a simple hamurger menu used only Html and Css.
