@@ -8,7 +8,7 @@ Main goal is:
 - Practicing variables with Css
 - Practicing CSS Flexbox
 
-![Exchange Rate](https://mdokqg.dm.files.1drv.com/y4mB7hyaZ7wOvc_DteRHpNXE1WLGLrt5ZUBExRRB-UvH1mJr-nQzOEFXFG4-45XTzwkpYhtFIpjQsEPYalzIfr_vo5KExOL_hnLPkUtriw1f0JYT_EmlpBRJSd9-uBm6yCkkotwoFMqWEJvzLd0FMusY7H_Oxl2fEn0Hj_h5YsreiLI1hX4hd6a2sUUlal2WCJeWlWnmdPbjaARoueSrUSaKg/edgeLedger.gif?psid=1)
+![Exchange Rate](https://ltobqg.dm.files.1drv.com/y4mt6JPYI3s4F84e0ekDBA3jpbyzrnJNv14Q0WKbbebN50R47qaopjU-BnW1Xbxol1ey46L63JjWq1tBAW3PWFNXWzf_mOpwHqwj2OHhfQOJkLYBwVGl2wGTST1V3-YC9z2MEZCtUjbalkTPZdyCC7ezsPX_XlZmDErlmAGVN2TZciRCLWYmWOmU2hKc6JsSf2iheGkw0kKtSfpfrtfduwtcw/edge.gif?psid=1)
 
 ## 02 - News Web
 

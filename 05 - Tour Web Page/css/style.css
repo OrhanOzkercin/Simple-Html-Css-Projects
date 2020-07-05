@@ -1,0 +1,182 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	/* font-size: 1.6rem; */
+	line-height: 1.7;
+	color: #777;
+	padding: 3rem;
+}
+
+.header {
+	height: 95vh;
+	background: linear-gradient(
+			to right bottom,
+			rgba(126, 213, 111, 0.83),
+			rgba(40, 180, 131, 0.83)
+		),
+		url(../img/hero.jpg);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+
+	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.header__logo-box {
+	padding: 4rem 0 0 4rem;
+}
+
+.header__logo {
+	height: 3.5rem;
+}
+
+.header__text-box {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+
+	text-transform: uppercase;
+
+	margin-bottom: 6rem;
+}
+
+.heading-primary--main {
+	font-size: 6rem;
+	font-weight: 400;
+	letter-spacing: 3.5rem;
+	animation: moveInLeft 1s ease-out;
+}
+
+.heading-primary--sub {
+	font-size: 2rem;
+	font-weight: 700;
+	letter-spacing: 1.75rem;
+
+	animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10rem);
+	}
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(10rem);
+	}
+	80% {
+		transform: translateX(-1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(3rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.btn:link,
+.btn:visited {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 1.5rem 4rem;
+	border-radius: 10rem;
+	display: inline-block;
+	transition: all 0.2s;
+	position: relative;
+	font-size: 1.6rem;
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: translateY(-1px);
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transition: all 0.4s;
+}
+
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+}
+
+.btn--white {
+	background-color: #fff;
+	color: #777;
+}
+
+.btn--white::after {
+	background-color: white;
+}
+
+.btn--animated {
+	animation: moveInBottom 0.5s ease-out 0.75s;
+	animation-fill-mode: backwards;
+}
