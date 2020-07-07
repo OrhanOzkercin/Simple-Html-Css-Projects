@@ -3,7 +3,10 @@
 
 	grid-template-columns: repeat(4, 1fr);
 
-	grid-gap: $gutter-horizontal;
+	grid-gap: $gutter-vertical $gutter-horizontal;
+
+	margin: 0 auto;
+	max-width: $grid-width;
 
 	.col-1 {
 		grid-column: span 1;

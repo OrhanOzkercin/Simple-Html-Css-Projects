@@ -99,6 +99,24 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s; }
+  .feature-box__icon {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #7ed56f, #28b485);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; }
+  .feature-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
 .btn:link, .btn:visited {
   text-align: center;
   text-transform: uppercase;
@@ -181,7 +199,7 @@ body {
       top: 12rem; }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
-      transform: scale(1.05);
+      transform: scale(1.05) translateY(-0.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 5; }
   .composition:hover .composition__photo:not(:hover) {
@@ -208,7 +226,9 @@ body {
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 6rem; }
+  grid-gap: 8rem 6rem;
+  margin: 0 auto;
+  max-width: 114rem; }
   .row .col-1 {
     grid-column: span 1; }
   .row .col-2 {
@@ -222,3 +242,12 @@ body {
   background: #f7f7f7;
   padding: 25rem;
   margin-top: -20vh; }
+
+.section-features {
+  margin-top: -11rem;
+  padding: 30rem 0;
+  background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
