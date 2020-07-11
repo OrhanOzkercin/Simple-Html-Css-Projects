@@ -4,7 +4,7 @@
 	padding: 6rem;
 
 	box-shadow: 0 3rem 6rem rgba($color: $color-black, $alpha: 0.1);
-	background-color: $color-white;
+	background-color: rgba($color-white, 0.6);
 	border-radius: 3px;
 	font-size: $default-font-size;
 
@@ -21,18 +21,20 @@
 		position: relative;
 		float: left;
 
-		clip-path: circle(50% at 50% 50%);
-		-webkit-clip-path: circle(50% at 50% 50%);
-		shape-outside: circle(50% at 50% 50%);
 		-webkit-shape-outside: circle(50% at 50% 50%);
+		shape-outside: circle(50% at 50% 50%);
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
 		transform: translateX(-2rem) skewX(12deg);
 	}
 
 	&__image {
 		height: 100%;
 		transform: translateX(-4rem) scale(1.4);
+		backface-visibility: hidden;
 		transition: all 0.5s;
 	}
+
 	&__caption {
 		position: absolute;
 		top: 50%;
@@ -55,5 +57,11 @@
 	&:hover &__image {
 		transform: translateX(-4rem) scale(1);
 		filter: blur(3px) brightness(80%);
+	}
+
+	&__text {
+		& > p {
+			text-align: justify;
+		}
 	}
 }
