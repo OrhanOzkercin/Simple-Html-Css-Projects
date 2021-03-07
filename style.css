@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+:root {
+  --bg-color: ;
+  --gray-color: #353535;
+  --font-color: #f1f1f1;
+  --blueish-font-color: #a0aec0;
+  --primary-color: #4a47a3;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  min-height: 100%;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #414345, #232526);
+}
+
+a,
+a:focus,
+a:visited {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  color: var(--blueish-font-color);
+}
+
+a:hover {
+  color: var(--font-color);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  height: 90px;
+}
+
+nav .menu a {
+  color: var(--blueish-font-color);
+  font-weight: 500;
+}
+nav .menu a:hover {
+  color: var(--font-color);
+}
+nav .menu a:first-child {
+  margin-right: 5px;
+}
+
+nav .social-icons a i {
+  color: var(--blueish-font-color);
+  font-size: 24px;
+}
+
+nav .social-icons a i:hover {
+  color: var(--font-color);
+}
+
+nav .social-icons a + a {
+  margin-left: 5px;
+}
+
+.explanation {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: #f1f1f1;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.explanation h2 {
+  font-size: 3rem;
+  color: var(--blueish-font-color);
+}
+
+.explanation p {
+  font-size: 1.2rem;
+  margin: 0 50px;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card .card_links {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .card_links a {
+  font-size: 1.3rem;
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+
+  .explanation h2 {
+    font-size: 2rem;
+  }
+  .explanation p {
+    font-size: 0.9rem;
+  }
+}
+
+.card {
+  position: relative;
+  margin: 70px 15px;
+  width: 400px;
+  height: 400px;
+  border-radius: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+  cursor: pointer;
+}
